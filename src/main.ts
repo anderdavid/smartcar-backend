@@ -7,6 +7,8 @@ async function bootstrap() {
     instrument: ObserveInstrument,
   });
 
+  console.log("url", process.env.URL);
+
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
   await app.listen(process.env.PORT ?? 3000);
 }
