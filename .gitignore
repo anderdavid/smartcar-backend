@@ -3,6 +3,11 @@
 /node_modules
 /build
 
+#md files prisma
+.agents/
+.windsurf/
+.claude/
+
 # TypeScript build cache
 *.tsbuildinfo
 
